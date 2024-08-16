@@ -136,7 +136,6 @@ header {
 }
 
 .img {
-  /* position: absolute; */
   height: auto;
   padding-bottom: 20%;
   max-width: 650px;
@@ -191,7 +190,6 @@ header {
 
 .services-list {
   display: grid;
-  /* grid-template-columns: 390px auto; */
   grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
@@ -224,20 +222,6 @@ header {
   margin-top: 20px;
   display: inline-block;
 }
-/* .read{
-  display: inline-block;
-  background: #0ef;
-  padding: 12px 28px;
-  border-radius: 40px;
-  font-size: 16px;
-  color: #081b29;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 600;
-  opacity: 0;
-  animation: slideTop 1s ease forwards;
-  animation-delay: 0.7s;
-} */
 .read {
   display: inline-flex;
   padding: 12px 28px;
@@ -280,7 +264,6 @@ section {
   margin-bottom: 50px;
 }
 
-/* copy */
 
 .bar{
   font-size: 23px;
@@ -496,9 +479,6 @@ section {
 }
 .portfolio-content{
   display: flex;
-  /* justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; */
   grid-template-columns: repeat(auto-fit, minmax(359px,auto));
 }
 .row{
@@ -516,7 +496,6 @@ section {
   border-radius: 8px;
   display: flex;
   transition: transform 0.5s;
-  /* height: 300px; */
 
 }
 .layer{
@@ -695,31 +674,6 @@ section {
   border-radius: 0.5rem;
 }
 
-
-
-/* paste */
-
-
-
-
-
-
-
-/* @keyframes animate {
-  0% {
-    transform: scaleX(0);
-    opacity: 0;
-  }
-  100% {
-    transform: scaleX(1);
-    
-  }
-}
-@keyframes showText{
-  100%{
-    opacity: 1;
-  }
-} */
 
 
 @keyframes slideRight {
